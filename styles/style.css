@@ -65,7 +65,7 @@ header .search-form button {
   display: grid;
   -ms-grid-columns: (minmax(350px, 1fr))[auto-fill];
       grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  padding: 2rem 0;
+  padding: 1rem 0;
   width: 80%;
   margin: auto;
   row-gap: 5rem;
