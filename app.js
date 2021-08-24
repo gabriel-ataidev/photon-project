@@ -33,7 +33,7 @@ function generatePictures(data){
         galleryImg.innerHTML = `
          <div  class="gallery-info">
          <p>${photo.photographer}</p> 
-         <a href=${photo.src.original}>Download</a>
+         <a target="_blank" href=${photo.src.original}>Download</a>
          </div>
          <img src=${photo.src.large}</img>`;
         gallery.appendChild(galleryImg);
