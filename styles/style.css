@@ -119,4 +119,14 @@ header .search-form button {
   font-size: 1.2rem;
   cursor: pointer;
 }
+
+.more {
+  padding: 1rem 3rem;
+  background: #4a4483;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
 /*# sourceMappingURL=style.css.map */
