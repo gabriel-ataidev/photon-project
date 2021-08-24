@@ -33,7 +33,7 @@ async function curatedPhotos(){
     });
 }
 async function searchPhotos(query){
-    const dataFetch = await fetch(`https://api.pexels.com/v1/search?query=${query}nature&per_page=1`, {
+    const dataFetch = await fetch(`https://api.pexels.com/v1/search?query=${query}+query&per_page=15&page=1`, {
         method: 'GET',
         headers: {
             Accept: 'application/json',
